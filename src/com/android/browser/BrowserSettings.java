@@ -73,20 +73,10 @@ public class BrowserSettings implements OnSharedPreferenceChangeListener,
         "CPU OS 3_2 like Mac OS X; en-us) AppleWebKit/531.21.10 " +
         "(KHTML, like Gecko) Version/4.0.4 Mobile/7B367 Safari/531.21.10";
 
-    private static final String FROYO_USERAGENT = "Mozilla/5.0 (Linux; U; " +
-        "Android 2.2; en-us; Nexus One Build/FRF91) AppleWebKit/533.1 " +
-        "(KHTML, like Gecko) Version/4.0 Mobile Safari/533.1";
-
-    private static final String HONEYCOMB_USERAGENT = "Mozilla/5.0 (Linux; U; " +
-        "Android 3.1; en-us; Xoom Build/HMJ25) AppleWebKit/534.13 " +
-        "(KHTML, like Gecko) Version/4.0 Safari/534.13";
-
     private static final String USER_AGENTS[] = { null,
             DESKTOP_USERAGENT,
             IPHONE_USERAGENT,
             IPAD_USERAGENT,
-            FROYO_USERAGENT,
-            HONEYCOMB_USERAGENT,
     };
 
     // The minimum min font size
